@@ -1,0 +1,10 @@
+/* Nav Start */
+.navbar .nav-link:hover {
+    color: #5F9EA0;
+  }
+/* Nav End */
+
+/* Jumbotron Start */
+.hero {
+  background-color: #f8f9fa;
+}

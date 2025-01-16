@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>Reza | Portofolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <!-- Navbar start -->
-    <nav class="navbar navbar-expand-lg bg-body-secondary shadow-sm px-4">
+    <nav class="navbar navbar-expand-lg bg-body-secondary shadow-sm px-4 py-3 sticky-top">
       <div class="container-fluid justify-content-evenly">
         <a class="navbar-brand" href="#"><strong>Reza Aziz</strong></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,10 +21,10 @@
               <a class="nav-link active link-offset-3-hover" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About</a>
+              <a class="nav-link active" aria-current="page" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Project</a>
+              <a class="nav-link active" aria-current="page" href="#project">Project</a>
             </li>
           </ul>
         </div>
@@ -32,9 +32,8 @@
     </nav>
     <!-- Navbar end -->
      <!-- Hero Start -->
-     <section class="rounded-lg  text-center pb-1
-     hero">
-      <img src="picture/profile-picture.jpg" alt="" class="mt-4 rounded-circle object-fit-cover border border-black" style="width: 200px; height: 200px;">
+     <section class="rounded-lg  text-center pb-1 bg-light" >
+      <img src="picture/profile-picture.jpg" alt="" class="mt-5 rounded-circle object-fit-cover border border-black" style="width: 200px; height: 200px;">
       <p class="lead mt-2">Front-End Developer | IT Student</p>
       <ul class="list-unstyled d-flex justify-content-center gap-2">
         <li>
@@ -49,10 +48,104 @@
         </li>
       </ul>
     </section>
-    <svg id="visual" viewBox="0 0 960 540" width="960" height="540" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><defs><filter id="blur1" x="-10%" y="-10%" width="120%" height="120%"><feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood><feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend><feGaussianBlur stdDeviation="163" result="effect1_foregroundBlur"></feGaussianBlur></filter></defs><rect width="960" height="540" fill="#ffffff"></rect><g filter="url(#blur1)"><circle cx="80" cy="111" fill="#f8f9fa" r="363"></circle><circle cx="352" cy="175" fill="#ffffff" r="363"></circle><circle cx="365" cy="455" fill="#f8f9fa" r="363"></circle><circle cx="185" cy="349" fill="#f8f9fa" r="363"></circle><circle cx="874" cy="16" fill="#ffffff" r="363"></circle><circle cx="594" cy="39" fill="#f8f9fa" r="363"></circle></g></svg>
       <!-- Hero End -->
        <!-- About Start -->
+        <div class="container" id="about">
+          <div class="row text-center">
+            <div class="col">
+              <h2>About Me</h2>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col text-center">
+                <img src="picture/profile-picture.jpg" class="object-fit-cover rounded-2 shadow" alt="..." style="height: 17rem; width: 13rem;">         
+             </div>
+            <div class="col">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ullam voluptate doloremque sapiente perspiciatis blanditiis amet, placeat sunt assumenda fugit molestias! Perferendis rem magni nam eaque asperiores nisi tempore, reiciendis soluta, explicabo nihil suscipit officiis, ipsum odio consequuntur ea nesciunt mollitia ab magnam! Magnam unde quos dolorum, porro atque earum soluta voluptas deleniti nemo ab distinctio voluptatem adipisci sequi eaque reprehenderit illum ratione at possimus consequatur, iure, rem aut corrupti dicta! Corrupti nesciunt tempore sint veniam, quis voluptate suscipit. Praesentium, possimus molestiae! Natus repellendus accusamus, aspernatur sint, fugiat, cum quam tenetur perspiciatis ab reiciendis laudantium numquam molestiae architecto quod amet.</p>
+            </div>
+          </div>
+        </div>
+        <!-- About End -->
+        <!-- Project Start -->
+         <div class="container mt-5" id="project">
+          <div class="row">
+            <div class="col">
+              <h2 class="text-center">Project</h2>
+            </div>
+          </div>
+          <!-- CARD PROJECT -->
+          <div class="row row-cols-1 row-cols-md-2 g-4 mt-3">
+            <div class="col">
+              <div class="card">
+                <img src="picture/card (1).jpg" class="card-img-top" alt="..." style="height: 15rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="picture/card (2).jpg" class="card-img-top" alt="..." style="height: 15rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="picture/card (3).jpg" class="card-img-top object-fit-cover" alt="..." style="height: 15rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="picture/card (4).jpg" class="card-img-top object-fit-cover" alt="..." style="height: 15rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+         </div>
+         <!-- Project End -->
+          <!-- Footer Start -->
+          <footer class="bg-body-secondary text-center py-3 mt-5">
+            <p>&copy; 2025 Reza Aziz</p>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        const navbarHeight = document.querySelector('.navbar').offsetHeight;
+        
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+    
+            if (this.getAttribute('href') === '#') {
+              window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+              });
+            } else {
+              const targetElement = document.querySelector(this.getAttribute('href'));
+              const elementPosition = targetElement.getBoundingClientRect().top;
+              const offsetPosition = elementPosition - navbarHeight;
+    
+              window.scrollBy({
+                top: offsetPosition,
+                behavior: 'smooth'
+              });
+            }
+          });
+        });
+      });
+    </script>
+    
   </body>
 </html>

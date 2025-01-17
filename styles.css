@@ -1,5 +1,8 @@
 /* Nav Start */
+.navbar-nav .nav-link {
+  color: #ffffff !important; 
+}
 .navbar .nav-link:hover {
-    color: #5F9EA0;
+    color: #ff8533 !important;
   }
 /* Nav End */

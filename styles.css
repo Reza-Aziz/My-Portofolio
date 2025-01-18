@@ -1,8 +1,39 @@
 /* Nav Start */
-.navbar-nav .nav-link {
-  color: #ffffff !important; 
-}
 .navbar .nav-link:hover {
     color: #ff8533 !important;
   }
 /* Nav End */
+/* About me */
+.container {
+  overflow-x: hidden;
+}
+
+.col-lg-8 {
+  margin-top: 20px; 
+}
+/* Aboutme end */
+/* Font */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Judul */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Navbar */
+.navbar, .navbar-nav .nav-link {
+  font-family: 'Lucida Grande', sans-serif;
+}
+
+/* Footer */
+footer {
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+/* Nama Web di Header */
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+}
+
